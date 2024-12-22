@@ -1,36 +1,27 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
 
-def load_data():
-    data = pd.read_csv("restaurant_data.csv")
-    return data
+# Load data from the CSV file
+df = pd.read_csv('restaurant_data.csv')
 
-def display_summary(restaurant_data):
-    st.subheader("Restaurant Summary")
-    st.write(f"**Restaurant Name:** {restaurant_data['Restaurant Name']}")
-    st.write(f"**Positive Reviews (%):** {restaurant_data['Positive Reviews (%)']}")
-    st.write(f"**Negative Reviews (%):** {restaurant_data['Negative Reviews (%)']}")
-    st.write(f"**Categories:** {restaurant_data['Categories']}")
-    st.write(f"**Themes:** {restaurant_data['Themes']}")
-    st.write(f"**Descriptions:** {restaurant_data['Descriptions']}")
-
-
-def main():
-    # Title
-    st.title("Yelp Restaurant Review Summarizer")
+# Function to display reviews based on selected restaurant
+def display_reviews(restaurant_name):
+    # Filter data based on restaurant name
+    restaurant_data = df[df['Restaurant Name'] == restaurant_name].iloc[0]
     
-    # Load data
-    data = load_data()
+    # Output positive and negative reviews
+    st.write(f"**Positive Reviews (%):** {restaurant_data['Positive Reviews (%)']}%")
+    st.write(f"**Negative Reviews (%):** {restaurant_data['Negative Reviews (%)']}%")
 
-    # Dropdown for restaurant selection
-    restaurant_list = data['Restaurant Name'].unique()
-    selected_restaurant = st.selectbox("Select a Restaurant", restaurant_list)
+# Streamlit layout
+def main():
+    st.title("Restaurant Reviews")
 
-    # Filter data for the selected restaurant
-    restaurant_data = data[data['Restaurant Name'] == selected_restaurant].iloc[0]
+    # Dropdown to select a restaurant
+    restaurant_name = st.selectbox("Select a Restaurant", df['Restaurant Name'].unique())
 
-    # Display summary
-    display_summary(restaurant_data)
+    # Display the reviews based on selected restaurant
+    display_reviews(restaurant_name)
 
 if __name__ == "__main__":
     main()
