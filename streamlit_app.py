@@ -5,7 +5,7 @@ import streamlit as st
 df = pd.read_csv('restaurant_data.csv')
 
 # Function to display reviews based on selected restaurant
-def display_reviews(restaurant_name):grgr
+def display_reviews(restaurant_name):
     # Filter data based on restaurant name
     restaurant_data = df[df['Restaurant Name'] == restaurant_name].iloc[0]
     
