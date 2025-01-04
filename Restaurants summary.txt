@@ -1,0 +1,308 @@
+[{'restaurant': 'Starbucks Jenkintown',
+  'overall_summary': 'This Starbucks receives mixed reviews. While customers '
+                     'consistently praise the friendly and efficient baristas '
+                     'and the pleasant atmosphere, the overwhelmingly negative '
+                     'feedback centers around the extremely limited and '
+                     'inconvenient parking situation.  Many customers report '
+                     'difficulty finding parking, leading them to choose other '
+                     'coffee shops. The store itself is generally well-liked, '
+                     'but the parking issue significantly impacts the overall '
+                     'experience.',
+  'tips': 'Be prepared for a parking challenge; consider alternatives if '
+          'parking is a major concern.  However, the excellent baristas and '
+          'cozy atmosphere make it worthwhile for many.',
+  'positive_reviews': 28,
+  'negative_reviews': 37,
+  'categories': [{'category': 'Parking',
+                  'themes': [{'theme': 'Insufficient Parking',
+                              'description': 'The most prevalent complaint is '
+                                             'the severely limited number of '
+                                             'parking spaces.  The small '
+                                             'parking lot frequently fills up, '
+                                             'forcing customers to park '
+                                             'illegally on the street or seek '
+                                             'parking elsewhere, often at '
+                                             'neighboring businesses.  This '
+                                             'inconvenience is mentioned in '
+                                             'almost every negative review, '
+                                             'making it the dominant theme.  '
+                                             'The lack of overflow parking or '
+                                             'nearby metered parking '
+                                             'exacerbates the problem, '
+                                             'creating significant frustration '
+                                             'for drivers.  Even recent '
+                                             'attempts to improve the lot '
+                                             'layout have not alleviated the '
+                                             'issue. Customers frequently '
+                                             'describe their experiences as '
+                                             'stressful and time-consuming.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 35}]},
+                 {'category': 'Service',
+                  'themes': [{'theme': 'Friendly and Efficient Baristas',
+                              'description': 'A significant number of positive '
+                                             'reviews highlight the '
+                                             'exceptional service provided by '
+                                             'the baristas.  Customers '
+                                             'consistently praise their '
+                                             'friendliness, helpfulness, '
+                                             'speed, and knowledge.  Many '
+                                             'reviewers mention specific '
+                                             'baristas by name, emphasizing '
+                                             'their positive interactions.  '
+                                             "The baristas' attitude and "
+                                             'efficiency are often cited as '
+                                             'reasons for returning despite '
+                                             'parking difficulties.  Even in '
+                                             'situations with long lines or '
+                                             'high order volumes, the '
+                                             "baristas' positive demeanor is "
+                                             'noted.',
+                              'positive_reviews': 25,
+                              'negative_reviews': 5},
+                             {'theme': 'Inconsistent Service',
+                              'description': 'Some negative reviews describe '
+                                             'instances of poor service, '
+                                             'including slow service times, '
+                                             'incorrect orders, and unfriendly '
+                                             'or rude interactions with '
+                                             'baristas.  These experiences are '
+                                             'less frequent than the positive '
+                                             'service reports, but they are '
+                                             'notable.  One review even '
+                                             'mentions a theft from a '
+                                             "customer's credit card, though "
+                                             'this is an isolated incident. '
+                                             'Inconsistent drink preparation '
+                                             'is also mentioned.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 12}]},
+                 {'category': 'Ambiance',
+                  'themes': [{'theme': 'Pleasant Atmosphere',
+                              'description': 'Many reviews mention a positive '
+                                             'atmosphere within the café '
+                                             'itself.  Customers describe it '
+                                             'as cozy, welcoming, and a good '
+                                             'place to study or relax.  The '
+                                             'availability of seating, '
+                                             'outlets, and even occasional '
+                                             'live music (inferred from one '
+                                             "review's mention of Christmas "
+                                             'tunes) contribute to the '
+                                             'positive ambiance. Customers '
+                                             'appreciate the spacious seating '
+                                             'area, which provides a '
+                                             'comfortable environment.',
+                              'positive_reviews': 18,
+                              'negative_reviews': 2},
+                             {'theme': 'Store Cleanliness',
+                              'description': 'A few reviews mention concerns '
+                                             'about the cleanliness of the '
+                                             'store, specifically noting dirty '
+                                             'bathrooms.  These comments are '
+                                             'not as numerous as those related '
+                                             'to parking or service, but they '
+                                             'still represent a negative '
+                                             'aspect of the customer '
+                                             'experience.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 4}]}]},
+ {'restaurant': "McDonald's",
+  'overall_summary': "This McDonald's location receives mixed reviews. While "
+                     'some praise its cleanliness, newer facilities, and '
+                     'friendly staff, a significant number of negative reviews '
+                     'highlight inconsistent service, order inaccuracies, and '
+                     'issues with food quality.  The drive-thru experiences '
+                     'are particularly problematic, with long wait times and '
+                     'instances of forgotten or incorrect items reported '
+                     'frequently.',
+  'tips': 'Check your order carefully before leaving the drive-thru; consider '
+          'ordering inside for better accuracy.',
+  'positive_reviews': 3,
+  'negative_reviews': 19,
+  'categories': [{'category': 'Food Quality',
+                  'themes': [{'theme': 'Inaccurate Orders',
+                              'description': 'Multiple reviews describe '
+                                             'receiving incorrect orders, '
+                                             'missing items, or substitutions '
+                                             'made without customer consent.  '
+                                             'This issue is prevalent in both '
+                                             'drive-thru and in-person orders, '
+                                             'indicating a systemic problem '
+                                             'with order accuracy.  Customers '
+                                             'often report having to return to '
+                                             'the restaurant to correct their '
+                                             'orders, causing significant '
+                                             'inconvenience.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 10},
+                             {'theme': 'Poor Food Quality',
+                              'description': 'Several reviews cite issues with '
+                                             'the quality of the food itself. '
+                                             'Complaints include cold, '
+                                             'undercooked, or stale food items '
+                                             '(e.g., burgers, fries).  The '
+                                             'description of the Big Mac as '
+                                             "having 'tiny and dry' patties, "
+                                             "and fries being 'at least 10 "
+                                             "minutes old and unsalted' are "
+                                             'examples of this recurring '
+                                             'theme.  The condition of the '
+                                             'food suggests potential problems '
+                                             'with food preparation and '
+                                             'handling.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 7}]},
+                 {'category': 'Service',
+                  'themes': [{'theme': 'Rude or Inattentive Staff',
+                              'description': 'Numerous reviews describe '
+                                             'encounters with rude or '
+                                             'inattentive staff.  This '
+                                             'includes instances of staff '
+                                             'ignoring customers, providing '
+                                             'poor customer service, and '
+                                             'responding poorly to complaints. '
+                                             'The lack of professionalism and '
+                                             'apparent unwillingness to '
+                                             'address customer concerns are '
+                                             'recurring complaints.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 8},
+                             {'theme': 'Long Wait Times',
+                              'description': 'Several reviews mention '
+                                             'excessively long wait times, '
+                                             'both in the drive-thru and when '
+                                             'ordering inside.  In some cases, '
+                                             'customers waited so long that '
+                                             'they left without receiving '
+                                             'their food.  This points to '
+                                             'potential staffing issues or '
+                                             'inefficiencies in the '
+                                             "restaurant's operations.",
+                              'positive_reviews': 0,
+                              'negative_reviews': 5},
+                             {'theme': 'Drive-Thru Issues',
+                              'description': 'The drive-thru is specifically '
+                                             'highlighted as a source of '
+                                             'significant problems.  Multiple '
+                                             'reviews describe issues with '
+                                             'order accuracy, long wait times, '
+                                             'and staff interactions within '
+                                             'the drive-thru lane. This '
+                                             'suggests the drive-thru system '
+                                             'itself may need improvement.',
+                              'positive_reviews': 0,
+                              'negative_reviews': 7}]},
+                 {'category': 'Restaurant Cleanliness and Ambiance',
+                  'themes': [{'theme': 'Cleanliness',
+                              'description': 'A few positive reviews mention '
+                                             "the restaurant's cleanliness and "
+                                             'newness as positive aspects. '
+                                             'However, other reviews '
+                                             'contradict this, mentioning '
+                                             'unsanitary conditions and lack '
+                                             'of hygiene among staff. This '
+                                             'suggests inconsistency in '
+                                             'maintaining cleanliness '
+                                             'standards.',
+                              'positive_reviews': 3,
+                              'negative_reviews': 4}]}]},
+ {'restaurant': 'Subway',
+  'overall_summary': 'This Subway location has recently changed ownership, '
+                     'resulting in mixed reviews. While some praise the '
+                     'improved cleanliness, friendly staff, and fresh '
+                     'ingredients under the new management, many negative '
+                     'reviews persist regarding poor customer service, '
+                     'incorrect orders, unhygienic practices, and slow '
+                     'service.  The positive reviews seem to heavily outweigh '
+                     'negative reviews for the new management, but issues with '
+                     'the staff remain a significant concern.',
+  'tips': 'Check recent reviews before visiting, as experiences can vary '
+          'widely depending on staff and time of day.',
+  'positive_reviews': 18,
+  'negative_reviews': 20,
+  'categories': [{'category': 'Food Quality',
+                  'themes': [{'theme': 'Freshness of Ingredients',
+                              'description': 'Reviews are divided on the '
+                                             'freshness of ingredients.  '
+                                             'Positive reviews highlight fresh '
+                                             'bread, vegetables, and meats, '
+                                             'while negative reviews mention '
+                                             'stale bread and a lack of meat '
+                                             'in sandwiches. The recent change '
+                                             'in ownership seems to have '
+                                             'improved the freshness of '
+                                             'ingredients, according to some '
+                                             'customers. However, other '
+                                             'reviews continue to cite issues '
+                                             'with ingredient quality.'}]},
+                 {'category': 'Service',
+                  'themes': [{'theme': 'Customer Service',
+                              'description': 'Customer service is a major '
+                                             'point of contention.  Many '
+                                             'negative reviews describe rude, '
+                                             'slow, and unprofessional staff '
+                                             'who fail to follow orders '
+                                             "correctly, don't know the menu, "
+                                             'or exhibit poor hygiene. '
+                                             'Positive reviews, however, often '
+                                             'mention friendly and welcoming '
+                                             'staff, particularly under the '
+                                             'new ownership. The inconsistency '
+                                             'in service quality is a '
+                                             'significant issue.'},
+                             {'theme': 'Order Accuracy',
+                              'description': 'A recurring complaint is the '
+                                             'frequent inaccuracy of orders.  '
+                                             'Customers report their orders '
+                                             'being wrong, even after repeated '
+                                             'corrections, indicating a lack '
+                                             'of attention to detail or '
+                                             'training among staff. This '
+                                             'problem seems to persist despite '
+                                             'the change in ownership.'},
+                             {'theme': 'Hygiene',
+                              'description': 'Several negative reviews '
+                                             'highlight serious hygiene '
+                                             'concerns.  These include '
+                                             'employees not wearing masks, '
+                                             'touching their faces or nose '
+                                             'while preparing food, and '
+                                             'generally unhygienic practices. '
+                                             'These instances raise serious '
+                                             'concerns about food safety.'},
+                             {'theme': 'Speed of Service',
+                              'description': 'Some reviews mention excessively '
+                                             'slow service, particularly '
+                                             'during peak hours, with '
+                                             'customers reporting long wait '
+                                             'times even with few people in '
+                                             'line. This suggests potential '
+                                             'understaffing or inefficient '
+                                             'workflow.'}]},
+                 {'category': 'Ambiance',
+                  'themes': [{'theme': 'Cleanliness',
+                              'description': 'Cleanliness has improved since '
+                                             'the change in ownership, '
+                                             'according to positive reviews. '
+                                             'However, negative reviews still '
+                                             'mention a dirty and unkempt '
+                                             'environment, with issues like a '
+                                             'homeless person sleeping near '
+                                             'the drive-thru.  The cleanliness '
+                                             'level appears inconsistent.'},
+                             {'theme': 'Music',
+                              'description': 'One review mentions '
+                                             'inappropriate and vulgar music '
+                                             'being played, creating an '
+                                             'uncomfortable atmosphere for '
+                                             'families.'}]},
+                 {'category': 'Pricing',
+                  'themes': [{'theme': 'Value',
+                              'description': 'One negative review mentioned '
+                                             'that the sandwiches were '
+                                             'overpriced.  However, other '
+                                             'reviews suggest that the pricing '
+                                             'is reasonable, especially '
+                                             'considering the $5 footlong '
+                                             'deals.'}]}]}]
